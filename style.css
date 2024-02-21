@@ -1,0 +1,1390 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Work Sans, 'Source Sans Pro';
+}
+
+
+
+ul,
+li,
+a {
+  list-style: none;
+  text-decoration: none;
+}
+
+input {
+  border: none;
+}
+
+.web-1512 {
+  padding: 0 10px;
+}
+
+.container-sm {
+  max-width: 1312px;
+  width: 100%;
+  margin: auto;
+}
+
+.header-img {
+  display: flex;
+  gap: 101px;
+  justify-content: center;
+  margin: auto;
+}
+
+.img-1 {
+  margin: 0 23px 0 0;
+  height: 26px;
+}
+
+.navigation {
+  display: flex;
+  column-gap: 23px;
+  align-items: center;
+}
+
+.nav-list {
+  cursor: pointer;
+  display: flex;
+  font-size: 14px;
+  font-weight: 500;
+  color: #36454f;
+  white-space: nowrap;
+  align-items: center;
+}
+
+.header-right {
+  gap: 34px;
+  display: flex;
+  align-items: center;
+}
+
+.header-btn1 {
+  cursor: pointer;
+  padding: 20px 10px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #36454f;
+  white-space: nowrap;
+}
+
+.header-btn2 {
+  font-size: 14px;
+  font-weight: 500;
+  padding: 16px 10px;
+  color: #ffffff;
+  white-space: nowrap;
+  background-color: #644f47;
+  border-radius: 4px;
+}
+
+/* ////////////////////////////////////////////////////////////////////////////// */
+.hero-section {
+  max-width: 1512px;
+  width: 100%;
+  height: 400px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-image: url('./images/hero-bg.png');
+  z-index: 1;
+  margin: auto;
+
+}
+
+.hero-para {
+  height: 100%;
+  color: #ffffff;
+  text-align: center;
+  display: flex;
+  margin: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.best-products {
+  font-size: 18px;
+}
+
+.hard-to {
+  font-size: 68px;
+}
+
+.hero-btn {
+  font-size: 22px;
+  text-transform: uppercase;
+  padding: 16px 46px;
+  color: rgba(0, 0, 0, 0.8700000048);
+  border: solid 1px #ffffff;
+  background-color: #ffffff;
+  border-radius: 4px;
+}
+
+
+/* /////////////////////////////////////////////////////////////////////////// */
+.MARKETPLACE {
+  padding: 60px 0;
+}
+
+.container-ex-lg {
+  max-width: 2044px;
+  width: 100%;
+  margin: auto;
+}
+
+.main-market {
+  display: grid;
+  row-gap: 30px;
+}
+
+.market {
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  gap: 26px;
+
+}
+
+.flex-auto {
+  max-width: 1022px;
+  width: 100%;
+  position: relative;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(./images/img1.png);
+  border-radius: 1px;
+  z-index: 1;
+  height: 100%;
+  margin: auto;
+}
+
+.flex-para {
+  padding: 51px 61px;
+  height: 100%;
+  display: flex;
+  background: linear-gradient(359.88deg, rgba(0, 0, 0, 0.5) 141.23%, rgba(0, 0, 0, 0.5) 221.99%);
+  flex-direction: column;
+  gap: 13px;
+}
+
+.bg-img {
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  position: relative;
+  background-position: center;
+  background-image: url('./images/img2.png');
+  border-radius: 1px;
+  z-index: 1;
+}
+
+.market-head {
+  font-size: 36px;
+  font-weight: 700;
+  color: #ffffff;
+  white-space: nowrap;
+}
+
+.market-para {
+  margin-bottom: 121px;
+  font-size: 17px;
+  color: #fafafa;
+}
+
+.input-btn {
+  max-width: 243px;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 17px 23px;
+  color: #ffffff;
+  white-space: nowrap;
+  background-color: rgba(0, 0, 0, 0.8700000048);
+  border-radius: 4px;
+}
+
+/* ///////////////////////////////////////////////////////////////////////////////// */
+
+.container-lg {
+  max-width: 1512px;
+  width: 100%;
+  margin: auto;
+}
+
+.Shopping {
+  max-width: 1040px;
+  margin: auto;
+  background-color: #ebc176;
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+}
+
+.shopping-para {
+  row-gap: 20px;
+  padding: 60px 75px 60px 100px;
+  display: flex;
+  flex-direction: column;
+}
+
+.shopping-para p {
+  font-size: 36px;
+  font-weight: 700;
+  color: #644f47;
+}
+
+.shopping-box {
+  display: grid;
+  gap: 24px;
+  grid-template-columns: 2fr 2fr;
+}
+
+.box1,
+.box2 {
+  border-radius: 8px;
+  padding: 24px;
+  background-color: #ffffff;
+  font-size: 18px;
+  line-height: 1.6;
+  color: rgba(0, 0, 0, 0.8700000048);
+}
+
+.box {
+  border-radius: 8px;
+  padding: 24px;
+  line-height: 1.6;
+  background-color: #ffffff;
+  font-size: 18px;
+  color: rgba(0, 0, 0, 0.8700000048);
+}
+
+.shopping-img {
+  width: 100%;
+  height: 100%;
+}
+
+/* ////////////////////////////////////////////////////////// */
+.discounts {
+  padding: 120px 0;
+}
+
+.discount {
+  display: flex;
+  gap: 60px;
+}
+
+.member {
+  margin: auto;
+}
+
+.member p {
+  font-size: 43px;
+  font-weight: 700;
+  color: #c2785c;
+}
+
+.member-card {
+  max-width: 1627px;
+  display: grid;
+  grid-template-columns: 3fr 3fr 3fr;
+  gap: 24px;
+}
+
+.main-card {
+  padding: 24px;
+  display: flex;
+  gap: 24px;
+  flex-direction: column;
+  border: 1px solid #a6a6a6;
+  background-color: #fbfbfb;
+  border-radius: 8px;
+}
+
+.member-card h3 {
+  font-size: 64px;
+  color: #333333;
+  white-space: nowrap;
+}
+
+.member-card h2 {
+  font-size: 34px;
+  color: #333333;
+  white-space: nowrap;
+}
+
+.member-card p {
+  font-size: 18px;
+  line-height: 1.8;
+  color: #333333;
+}
+
+/* ///////////////////////////////////////////////////////////////////////////// */
+
+.time-block {
+  max-width: 1020px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  gap: 32px;
+  padding: 0 0 0 100px;
+  background-color: #e8e8e8;
+}
+
+.main-time {
+  padding: 30px 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 34px;
+}
+
+.main-time h3 {
+  font-size: 43px;
+  color: #36454f;
+  white-space: nowrap;
+}
+
+.time-info {
+  max-width: 446px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.info-1 {
+  display: flex;
+  gap: 32px;
+}
+
+.info-icon {
+  margin-right: 18px;
+  height: 34px;
+}
+
+.info-1 p {
+  max-width: 404px;
+  font-size: 18px;
+  line-height: 1.7;
+  color: #1d1d1d;
+}
+
+/* ////////////////////////////////////////////////////////////////////////////// */
+.MemberShip {
+  padding: 60px 100px;
+}
+
+.pricing-table {
+  padding: 0px;
+  margin: 0px;
+  margin-top: 10px;
+}
+.membership-1 {
+  display: flex;
+  gap: 153px;
+  margin: 23px;
+  align-items: flex-start;
+}
+
+.membership-main {
+  margin: 6px 47px 0 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.membership-para {
+  margin-bottom: 13px;
+  font-size: 43px;
+  color: #36454f;
+}
+
+.but-premium {
+  font-size: 43px;
+  font-weight: 700;
+  color: #c2785c;
+}
+
+.membership-para p {
+  font-size: 43px;
+  color: #1d1d1d;
+  white-space: nowrap;
+}
+
+.test-it {
+  max-width: 476px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.7;
+  color: #1d1d1d;
+  flex-shrink: 0;
+}
+
+.membership-btn {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.monthly,
+.annually {
+  font-size: 16px;
+  color: #000000;
+  padding: 2px;
+  white-space: nowrap;
+}
+
+.button {
+  padding: 2px 2px 2px 30px;
+    width: 58px;
+    border: 2px solid rgba(0, 0, 0, 0.75);
+    border-radius: 90px;
+}
+
+.span {
+  height: 26px;
+  box-shadow: 1px 2px rgba(0, 0, 0, 0.0599999987), 1px 3px rgba(0, 0, 0, 0.1000000015);
+  background-color: #000000;
+  border-radius: 90px;
+}
+.membership {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+table{
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0; 
+}
+
+.Plans,.Basic,.Premium{
+  width: 330px;
+  font-size: 24px;
+  padding: 13px;
+}
+.Premium {
+  background-color: #c2785c;
+  font-size: 24px;
+  color: #ffffff;
+}
+.plan-para{
+  margin: 0 27px 28px 0;
+  text-align: left;
+  object-fit: contain;
+}
+.basic-img,
+.premim-img {
+  margin: 0 27px 28px 0;
+  height: 24px;
+  object-fit: contain;
+}
+.plan-basic-prem{
+  border-bottom: 1px solid #bababa;
+}
+
+.premim-img{
+background-color: #c2785c;
+}
+ td {
+  padding: 10px 8px;
+  font-weight: 500;
+  text-align: center;
+  font-size: 12px;
+}
+.basic-btn {
+  width: 149px;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 10px 22px;
+  text-align: center;
+  color: #ffffff;
+  white-space: nowrap;
+  margin: 19px auto 9px;
+  background-color: #000000;
+  border-radius: 4px;
+}
+
+
+.Premium-btn {
+  margin: 12px auto;
+  font-size: 18px;
+  padding: 10px 24px;
+  white-space: nowrap;
+  background-color: #ffffff;
+  border-radius: 4px;
+}
+
+
+/* //////////////////////////////////////////////////////////////////////// */
+.MAIN-Section {
+  margin: 0 13px 8px;
+}
+
+.section {
+  padding: 123px;
+  background-color: #36454f;
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.flex-col h2 {
+  max-width: 431px;
+  font-size: 43px;
+  color: #ffffff;
+}
+
+.flex-col p {
+  max-width: 431px;
+  font-size: 16px;
+  line-height: 1.625;
+  color: #dbeafe;
+}
+
+.section-mid {
+  padding: 45px;
+  width: 344px;
+  box-shadow: 0 0.2rem 0.4rem rgba(0, 0, 0, 0.0599999987), 0 0.4rem 0.6rem rgba(0, 0, 0, 0.1000000015);
+  background-color: #ffffff;
+  border-radius: 8px;
+}
+
+.flex-center {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-center h5 {
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #c2785c;
+  white-space: nowrap;
+}
+
+.week-Use {
+  display: flex;
+  align-items: baseline;
+  white-space: nowrap;
+  font-size: 58px;
+}
+
+.sub-0 {
+  font-size: 58px;
+  font-weight: 700;
+}
+
+.sub-1 {
+  font-size: 22px;
+  font-weight: 400;
+}
+
+.saving-btn {
+  width: 248px;
+  display: flex;
+  padding: 13px;
+  background-color: #c2785c;
+  border-radius: 90px;
+  white-space: nowrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.saving-btn a {
+  font-size: 15px;
+  text-align: center;
+  color: #ffffff;
+  white-space: nowrap;
+}
+
+.saving-btn img {
+  height: 13px;
+}
+
+.margin-center {
+  display: flex;
+  align-items: center;
+  padding: 12px;
+}
+
+.margin-center img {
+  margin-right: 12px;
+  height: 15px;
+}
+
+.margin-center p {
+  font-size: 14px;
+  color: #71717a;
+  white-space: nowrap;
+}
+
+/* /////////////////////////////// */
+.main-footer {
+  padding: 80px 0;
+}
+
+.footer {
+  max-width: 1020px;
+    margin: auto;
+  display: flex;
+  border-bottom: 1px solid #ebebeb;
+}
+
+.FooterList {
+  display: grid;
+  grid-template-columns: 2fr 2fr 2fr 2fr;
+}
+
+.footer img {
+  margin-right: 201px;
+  height: 26px;
+}
+
+.footer-list,
+.footer-list2,
+.footer-list3,
+.footer-list4 {
+  margin-right: 123px;
+  row-gap: 24px;
+  display: flex;
+  flex-direction: column;
+  white-space: nowrap
+}
+
+.list {
+  font-size: 16px;
+  white-space: nowrap;
+}
+
+.list-1 {
+  color: #646f7f;
+  font-size: 16px;
+  white-space: nowrap;
+}
+
+/* /////////////////////////////////////////////////////////// */
+@media screen and (max-width: 300px) {
+  .web-1512 {
+    margin: 0px 12px;
+    width: auto;
+    overflow: hidden;
+  }
+
+  .hero-section {
+    height: 400px;
+  }
+  .header-right{
+    flex-direction: column;
+    gap: 12px;
+  }
+  .hard-to {
+    font-size: 21px;
+  }
+.box1,.box2{
+  width: 223px;
+    margin: auto;
+}
+  .hero-btn {
+    padding: 9px;
+    font-size: 12px;
+  }
+
+  .shop-img {
+    margin: auto;
+  }
+
+  .member-card h2,
+  .membership-para p,
+  .main-time h3 {
+    font-size: 19px;
+    text-align: center;
+  }
+
+  .member-card{
+    display: flex;
+    flex-direction: column;
+  }
+  .time-block,
+  .shopping-box,
+  .membership-details .section,
+  .Shopping,
+  .market {
+    grid-template-columns: 2fr;
+    justify-content: center;
+    margin: auto;
+  }
+
+  .shopping-para {
+    padding: 12px;
+  }
+
+  .shopping-para p,
+  .but-premium {
+    font-size: 12px;
+    text-align: center;
+  }
+
+  .info-1 {
+    gap: 15px;
+  }
+  .box {
+    margin: 13px auto 2px;
+    font-size: 15px;
+    width: 220px;
+    padding: 9px;
+  }
+
+  .time-block,
+  .MemberShip {
+    padding: 12px 0 0 0;
+  }
+
+  .main-time,
+  .flex-col p {
+    padding: 12px;
+  }
+
+  .info-icon {
+    margin-right: 0;
+  }
+
+  .header-img,
+  .navigation,
+  .membership-1,
+  .footer,
+  .discount {
+    flex-direction: column;
+    gap: 32px;
+  }
+
+  .shopping-img,
+  .Basic,
+  .Premium {
+    margin: auto;
+    width: 235px;
+  }
+  .discounts{
+    padding: 23px 0;
+  }
+.member p{
+  font-size: 23px;
+}
+  .section-mid {
+    width: 230px;
+    margin: auto;
+  }
+  .saving-btn{
+    width: 208px;
+  }
+.flex-para{
+  padding: 23px;
+}
+  .section {
+    padding: 12px;
+    grid-template-columns: 2fr;
+  }
+
+  .MAIN-Section {
+    margin: 12px 0;
+    width: fit-content;
+  }
+
+  .flex-col h2 {
+    font-size: 18px;
+    width: 234px;
+    text-align: center;
+  }
+
+  .FooterList {
+    grid-template-columns: 2fr 2fr;
+  }
+
+  .footer-list,
+  .footer-list2,
+  .footer-list3,
+  .footer-list4 {
+    margin-right: 43px;
+    margin-bottom: 12px;
+  }
+  .Plans, .Basic, .Premium {
+    width: 100%;
+  }
+
+  .basic-img, .premim-img {
+    margin: 0 0 10px 0;
+  }
+
+  td {
+    font-size: 14px;
+  }
+}
+
+@media screen and (min-width: 301px) and (max-width: 450px) {
+  .web-1512 {
+    margin: 0px 12px;
+    width: auto;
+    overflow: hidden;
+  }
+  .Plans, .Basic, .Premium {
+    width: 80%;
+  }
+
+  .basic-img, .premim-img {
+    margin: 0 0 10px 0;
+  }
+  .hero-section {
+    height: 400px;
+  }
+
+  .hard-to {
+    font-size: 21px;
+  }
+
+  .hero-btn {
+    padding: 9px;
+    font-size: 12px;
+  }
+
+.plan-para{
+    font-size: 12px;
+}
+  .shop-img {
+    margin: auto;
+  }
+
+  .member-card h2,
+  .main-time h3 {
+    white-space: normal;
+  }
+
+  .member-card,
+  .time-block,
+  .shopping-box,
+
+  .membership-details,
+  .section,
+  .Shopping,
+  .market {
+    grid-template-columns: 2fr;
+    justify-content: center;
+    margin: auto;
+  }
+
+  .shopping-para {
+    padding: 12px;
+  }
+
+  .shopping-para p,
+  .membership-para p,
+  .but-premium {
+    font-size: 17px;
+    text-align: center;
+  }
+
+  .info-1 {
+    gap: 15px;
+  }
+
+  .box1,
+  .box2 {
+    width: 270px;
+  }
+
+  .box {
+    margin: 13px auto 2px;
+    font-size: 15px;
+    width: 270px;
+    padding: 9px;
+  }
+
+  .time-block,
+  .MemberShip {
+    padding: 12px 0 0 0;
+  }
+
+  .main-time,
+  .flex-col p {
+    padding: 12px;
+  }
+
+  .info-icon {
+    margin-right: 0;
+  }
+
+  .header-img,
+  .navigation,
+  .membership-1,
+  .footer,
+  .discount {
+    flex-direction: column;
+    gap: 32px;
+    align-items: center;
+  }
+
+  .shopping-img {
+    width: 100%;
+    margin: auto;
+    text-align: left;
+    font-size: 12px;
+  }
+ .Basic{
+  text-align: center;
+ }
+.basic-btn,.Premium-btn,.Premium{
+  font-size: 12px;
+  padding: 12px;
+}
+  .section-mid {
+    width: auto;
+    padding: 12px;
+  }
+  .saving-btn{
+    width: 214px;
+  }
+
+  .section {
+    padding: 12px;
+  }
+
+  .MAIN-Section {
+    margin: 12px 0;
+    width: fit-content;
+  }
+
+  .flex-col h2 {
+    font-size: 18px;
+    width: 234px;
+  }
+
+  .FooterList {
+    grid-template-columns: 2fr 2fr;
+  }
+
+  .footer-list,
+  .footer-list2,
+  .footer-list3,
+  .footer-list4 {
+    margin-right: 43px;
+    margin-bottom: 12px;
+  }
+}
+
+@media screen and (min-width: 451px) and (max-width: 767px) {
+  .web-1512 {
+    margin: 0px 12px;
+    width: auto;
+    overflow: hidden;
+  }
+  .Plans, .Basic, .Premium {
+    width: 330px;
+  }
+
+  .basic-img, .premim-img {
+    margin: 0 0 10px 0;
+  }
+
+  td {
+    font-size: 14px;
+  }
+  .hero-section {
+    height: 400px;
+  }
+
+  .hard-to {
+    font-size: 31px;
+  }
+
+  .hero-btn {
+    padding: 9px;
+    font-size: 12px;
+  }
+
+  .shop-img {
+    margin: auto;
+  }
+
+  .member-card h2,
+  .main-time h3 {
+    white-space: normal;
+  }
+
+  .shopping-box,
+  .Shopping,
+  .membership-details,.member-card,.time-block,.market {
+    grid-template-columns: 2fr;
+    justify-content: center;
+    margin: auto;
+  }
+
+  .shopping-para {
+    padding: 12px;
+  }
+
+  .shopping-para p,
+  .membership-para p,
+  .but-premium {
+    font-size: 17px;
+  }
+
+  .info-1 {
+    gap: 15px;
+  }
+
+  .box1,
+  .box2 {
+    width: 270px;
+  }
+
+  .box {
+    margin-top: 13px;
+    font-size: 15px;
+    padding: 9px;
+  }
+
+  .time-block,
+  .MemberShip {
+    padding: 12px 0 0 0;
+  }
+
+  .main-time,
+  .flex-col p {
+    padding: 12px;
+  }
+
+  .info-icon {
+    margin-right: 0;
+  }
+
+  .header-img,
+  .membership-1,
+  .footer,
+  .discount {
+    flex-direction: column;
+    gap: 32px;
+    align-items: center;
+  }
+
+  .navigation {
+    justify-content: space-between;
+  }
+
+  .shopping-img,
+  .Basic,
+  .Premium {
+    width: 320px;
+    margin: auto;
+  }
+
+  .section-mid {
+    width: 280px;
+    margin: auto;
+  }
+
+  .section {
+    padding: 0;
+  }
+
+  .MAIN-Section {
+    margin: 12px 0;
+    width: fit-content;
+  }
+
+  .flex-col h2 {
+    font-size: 18px;
+    width: 234px;
+    text-align: center;
+  }
+
+  .FooterList {
+    grid-template-columns: 2fr 2fr;
+  }
+
+  .footer-list,
+  .footer-list2,
+  .footer-list3,
+  .footer-list4 {
+    margin-right: 43px;
+    margin-bottom: 12px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 990px) {
+  .web-1512 {
+    margin: 0px 50px;
+    width: auto;
+    overflow: hidden;
+  }
+
+  .hero-section {
+    height: 400px;
+  }
+
+  .hard-to {
+    font-size: 41px;
+  }
+
+  .hero-btn {
+    padding: 9px;
+    font-size: 12px;
+  }
+
+.MARKETPLACE{
+  margin: auto;
+    width: max-content;
+}
+  .member-card h2,
+  .main-time h3 {
+    white-space: normal;
+  }
+
+  .member-card{
+    
+    grid-template-columns: 2fr 2fr 2fr;
+  }
+  .time-block,
+  .Shopping,
+  .market {
+    grid-template-columns: 2fr 2fr;
+    
+  }
+
+  .shopping-para {
+    width: auto;
+  }
+
+  .shopping-para p,
+  .membership-para p,
+  .but-premium {
+    font-size: 23px;
+  }
+
+  .info-1 {
+    gap: 15px;
+  }
+
+  .box {
+    font-size: 18px;
+    padding: 24px;
+  }
+
+  .MemberShip {
+    padding: 12px 0 0 0;
+  }
+
+  .main-time,
+  .flex-col p,
+  .section {
+    padding: 12px;
+  }
+
+  .info-icon {
+    margin-right: 0;
+  }
+
+  .header-img,
+  .membership-1,
+  .footer,
+  .discount {
+    flex-direction: column;
+    gap: 22px;
+    align-items: center;
+  }
+
+  .header-right {
+    margin: auto;
+  }
+
+  .shopping-img,
+  .Basic,.Premium,.Plans
+  .section-mid {
+    margin: auto;
+  }
+
+  .dark-gray-prem {
+    padding: 33px 13px 48px;
+  }
+
+  .MAIN-Section {
+    margin: 12px 0;
+    width: fit-content;
+  }
+
+  .flex-col h2 {
+    font-size: 18px;
+    width: 234px;
+    text-align: center;
+  }
+
+  .FooterList {
+    grid-template-columns: 2fr 2fr;
+    margin: auto;
+  }
+
+  .footer-list,
+  .footer-list2,
+  .footer-list3,
+  .footer-list4 {
+    margin-right: 43px;
+    margin-bottom: 12px;
+  }
+
+  .footer-img {
+    width: 123px;
+  }
+  
+}
+
+@media screen and (min-width: 991px) and (max-width: 1199px) {
+  .web-1512 {
+    margin: 0px 50px;
+    width: auto;
+    overflow: hidden;
+  }
+
+  .hero-section {
+    height: 400px;
+  }
+
+  .hard-to {
+    font-size: 51px;
+  }
+
+  .hero-btn {
+    padding: 9px;
+    font-size: 12px;
+  }
+
+  .member-card h2,
+  .main-time h3 {
+    white-space: normal;
+  }
+
+  .shopping-para {
+    padding: 12px;
+    width: 460px;
+  }
+
+  .box1,
+  .box2 {
+    width: 200px;
+    height: 210px;
+  }
+
+  .box {
+    margin-top: 73px;
+  }
+
+  .shopping-img {
+    width: 456px;
+  }
+
+  .shopping-para p,
+  .membership-para p,
+  .but-premium {
+    font-size: 23px;
+  }
+
+  .info-1 {
+    gap: 15px;
+  }
+
+  .MemberShip {
+    padding: 12px 0 0 0;
+  }
+
+
+
+  .info-icon {
+    margin-right: 0;
+  }
+
+  .header-img,
+  .navigation,
+  .discount {
+    gap: 22px;
+    margin: auto;
+  }
+
+  .discount {
+    flex-direction: column;
+  }
+
+  .header-right {
+    margin: auto;
+  }
+
+  .section-mid {
+    margin: auto;
+  }
+
+  .MAIN-Section {
+    margin: 12px 0;
+    width: fit-content;
+  }
+
+  .flex-col h2 {
+    font-size: 18px;
+    width: 234px;
+  }
+.plan-heading{
+  font-size: 60px;
+}
+  .footer-list,
+  .footer-list2,
+  .footer-list3,
+  .footer-list4 {
+    margin-right: 43px;
+    margin-bottom: 12px;
+  }
+
+  .footer img {
+    width: 123px;
+    margin-right: 81px;
+  }
+
+}
+
+@media screen and (min-width: 1200px) {
+
+  .hero-section {
+    height: 400px;
+    width: 1200px;
+  }
+
+  .hero-btn {
+    padding: 9px;
+    font-size: 12px;
+  }
+
+  .member-card h2,
+  .main-time h3 {
+    white-space: normal;
+  }
+
+  .shopping-para p,
+  .membership-para p,
+  .but-premium {
+    font-size: 37px;
+  }
+
+  .info-1 {
+    gap: 15px;
+  }
+
+
+  .info-icon {
+    margin-right: 0;
+  }
+
+  .flex-col h2 {
+    font-size: 43px;
+  }
+
+
+}
